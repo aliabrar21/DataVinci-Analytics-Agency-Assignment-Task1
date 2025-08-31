@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+Here’s a **README.md** file you can use for your ReactJS project (the nested checkbox UI).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+```markdown
+# Nested Checkbox React App
+
+This project is a **ReactJS application** that demonstrates a **nested checkbox logic** where selecting a parent category automatically selects/deselects all its child items, and selecting/deselecting child items updates the parent checkbox state.
+
+---
+
+## 🚀 Features
+- Parent-child checkbox synchronization.
+- "Select All" behavior for parent checkboxes.
+- Partially checked state for parents when some children are selected.
+- Clean and responsive UI using **CSS**.
+
+---
+
+## 📂 Project Structure
+```
+
+nested-checkbox-app/
+│── node\_modules/        # Installed dependencies
+│── public/
+│   └── index.html       # Root HTML
+│── src/
+│   ├── App.js           # Main React component
+│   ├── styles.css       # Custom CSS styling
+│   └── index.js         # Entry point
+│── package.json         # Project metadata & dependencies
+└── README.md            # Project documentation
+
+````
+
+---
+
+## 🛠️ Installation & Setup
+
+Follow the steps below to run this project locally:
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/aliabrar21/DataVinci-Analytics-Agency-Assignment-Task1
+cd nested-checkbox-app
+````
+
+### 2. Install Dependencies
+
+Make sure you have **Node.js** and **npm** installed.
+Run:
+
+```bash
+npm install
+```
+
+### 3. Start the Development Server
+
+```bash
+npm start
+```
+
+The app will start at: **[http://localhost:3000](http://localhost:3000)**
+
+---
+
+## 📦 Dependencies
+
+This project uses:
+
+* **React** – Frontend library
+* **React DOM** – Rendering React components
+* **React Scripts** – CRA scripts for development and build
+
+Installed via:
+
+```bash
+npm install react react-dom react-scripts
+```
+
+---
+
+## 🎯 Usage
+
+1. Expand a category by checking/unchecking the parent checkbox.
+2. Child checkboxes update automatically when parent is toggled.
+3. Parent checkboxes reflect partial selection when some children are selected.
+
+---
+
+## 📸 Screenshot
+
+(Add your screenshot here once available, e.g.)
+
+```
+![App Screenshot](screenshot.png)
+```
+
+---
+
+## ⚡ Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+* `npm start` → Runs the app in development mode.
+* `npm run build` → Builds the app for production.
+* `npm test` → Launches test runner.
+* `npm run eject` → Ejects the config (advanced).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 👨‍💻 Author
 
-### `npm test`
+**Abrar Ali**
+Built with ❤️ using **ReactJS**.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Do you want me to also include the **exact commands step-by-step** (from `npx create-react-app` to running the app) inside the README so that it’s beginner-friendly?
+```
